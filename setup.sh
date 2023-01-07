@@ -41,7 +41,9 @@ PERMISSION () {
     MYIP=$(curl -sS ipv4.icanhazip.com)
     IZIN=$(curl -sS https://raw.githubusercontent.com/sreyaeve/permission/main/access | awk '{print $4}' | grep $MYIP)
     if [ "$MYIP" = "$IZIN" ]; then
-    Bloman
+echo -e "\e[32mPermission Accepted...\e[0m"
+VALIDITY
+clear
     else
     res="Izin Di Tolak..... SILAHKAN PM ADMIN UNTUK MEMBELI SCRIPT!"
     fi
