@@ -42,7 +42,7 @@ PERMISSION () {
     IZIN=$(curl -sS https://raw.githubusercontent.com/sreyaeve/permission/main/access | awk '{print $4}' | grep $MYIP)
     if [ "$MYIP" = "$IZIN" ]; then
 echo -e "\e[32mPermission Accepted...\e[0m"
-VALIDITY
+Bloman
 clear
     else
     res="Izin Di Tolak..... SILAHKAN PM ADMIN UNTUK MEMBELI SCRIPT!"
