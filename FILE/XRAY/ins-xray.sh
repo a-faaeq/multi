@@ -86,7 +86,7 @@ sleep 1
 echo -e "[ ${green}INFO$NC ] Enable chrony"
 systemctl enable chrony
 systemctl restart chrony
-timedatectl set-timezone Asia/Kuala_Lumpur
+timedatectl set-timezone Asia/Jakarta
 sleep 1
 echo -e "[ ${green}INFO$NC ] Setting chrony tracking"
 chronyc sourcestats -v
@@ -123,8 +123,6 @@ latest_version="$(curl -s https://api.github.com/repos/XTLS/Xray-core/releases |
 # $latest_version
 xraycore_link="https://github.com/XTLS/Xray-core/releases/download/v1.6.0/xray-linux-64.zip"
 bash -c "$(curl -L https://github.com/XTLS/Xray-install/raw/main/install-release.sh)" @ install -u www-data --version $latest_version
-
-
 
 ## crt xray
 systemctl stop nginx
