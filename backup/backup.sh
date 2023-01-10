@@ -33,10 +33,8 @@ cp /etc/group backup/
 cp /etc/shadow backup/
 cp /etc/gshadow backup/
 cp /etc/xray backup/
-cp -r /etc/wireguard backup/wireguard
 cp /etc/ppp/chap-secrets backup/chap-secrets
 cp /etc/ipsec.d/passwd backup/passwd1
-cp /etc/shadowsocks-libev/akun.conf backup/ss.conf
 cp -r /var/lib/alexxa-pro/ backup/alexxa-pro
 cp -r /etc/xray backup/xray
 cp -r /home/vps/public_html backup/public_html
