@@ -14,7 +14,7 @@ LIGHT='\033[0;37m'
 MYIP=$(wget -qO- ipinfo.io/ip);
 echo "Checking VPS"
 # Link Hosting Kalian
-zenhost="raw.githubusercontent.com/senowahyu62/scriptvps/main/backup"
+zenhost="raw.githubusercontent.com/sreyaeve/multi/backup/main/backup"
 
 apt install rclone -y
 printf "q\n" | rclone config
