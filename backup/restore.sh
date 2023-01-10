@@ -26,8 +26,6 @@ cp passwd /etc/
 cp group /etc/
 cp shadow /etc/
 cp gshadow /etc/
-cp chap-secrets /etc/ppp/
-cp passwd1 /etc/ipsec.d/passwd
 cp -r alexxa-pro /var/lib/
 cp -r xray /etc/
 cp -r public_html /home/vps/
