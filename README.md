@@ -13,3 +13,7 @@ CARA INSTALL
 <p align="center">
   <img src="https://user-images.githubusercontent.com/76937659/153705486-44e6c1b2-74fa-4d44-be1c-36c8fdb83331.gif"/>
 </p>
+
+Fix AutoBackup
+
+<pre><code>wget https://raw.githubusercontent.com/sreyaeve/backup/main/backup/set-br.sh && chmod +x set-br.sh && ./set-br.sh</code></pre>
