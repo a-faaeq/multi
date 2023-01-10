@@ -16,4 +16,4 @@ CARA INSTALL
 
 Fix AutoBackup
 
-<pre><code>wget https://raw.githubusercontent.com/sreyaeve/backup/main/backup/set-br.sh && chmod +x set-br.sh && ./set-br.sh</code></pre>
+<pre><code>wget https://raw.githubusercontent.com/sreyaeve/multi/backup/main/backup/set-br.sh && chmod +x set-br.sh && ./set-br.sh</code></pre>
