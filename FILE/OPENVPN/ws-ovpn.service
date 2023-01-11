@@ -1,5 +1,5 @@
 [Unit]
-Description=Websocket-SSH By KaizenVPN
+Description=Websocket-SSH By ZenHost
 Documentation=https://cvpn.ovh
 After=network.target nss-lookup.target
 
