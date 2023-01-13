@@ -13,11 +13,11 @@ ver=$VERSION_ID
 #detail nama perusahaan
 country=ID
 state=INDONESIA
-locality=JAWATENGAH
-organization=Blogger
-organizationalunit=Blogger
-commonname=none
-email=admin@sedang.my.id
+locality=INDONESIA
+organization=www.greenserver.my.id
+organizationalunit=www.greenserver.my.id
+commonname=www.greenserver.my.id
+email=admin@greenserver.my.id
 
 # simple password minimal
 curl -sS https://raw.githubusercontent.com/sreyaeve/multi/main/FILE/SSH/password | openssl aes-256-cbc -d -a -pass pass:scvps07gg -pbkdf2 > /etc/pam.d/common-password
